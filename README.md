@@ -21,19 +21,29 @@ Source: [Kaggle Heart Disease Dataset](https://www.kaggle.com/datasets/kamilpytl
 - ST Depression Induced by Exercise  
 - Number of Major Vessels  
 - Thalassemia  
+
+
 ## How to Use
 ### 1. Clone the repository
+
 git clone https://github.com/yourusername/heart-disease-prediction.git
 cd heart-disease-prediction
 
 2. Install required packages
+
 pip install -r requirements.txt
+
 3. Train the model
+
 python train_model.py
+
 4. Run the Streamlit application
+
 streamlit run app.py
 
 #Project Structure
+
+
 heart-disease-prediction/
 │
 ├── data/                  # Dataset files
@@ -47,19 +57,28 @@ heart-disease-prediction/
 ├── requirements.txt       # List of dependencies
 └── .gitignore             # Git ignore file
 
-Dependencies
+
+#Dependencies
+
 This project requires the following Python libraries:
+
 1.pandas
+
 2.numpy
+
 3.scikit-learn
+
 4.streamlit
+
 5.pickle (built-in Python library)
 
-Contributing
+#Contributing
+
 Contributions, issues, and feature requests are always welcome!
 Feel free to fork the repository, make your changes, and submit a pull request for review.
 
-Contact
+#Contact
+
 If you have any questions, suggestions, or feedback, please feel free to reach out to Ankleshwar at:
 ankleshwartiwari277@gmail.com
 
